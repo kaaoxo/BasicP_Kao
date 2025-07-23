@@ -31,14 +31,15 @@ while gamestart:
            mon -= 15
         r -= 1
         print(mon)
-        print("round left : ",r-1)
+        print("round left : ",r)
         if mon < 0:
             mon += 20
             print("Monster still alive")
-        elif mon == 0 and i == round:
+        elif mon == 0:
            print("Monster Died and You win")
         if i == round and mon > 0:
            print("You Died")
+        gamestart = False
     gamestart = False
      
      
