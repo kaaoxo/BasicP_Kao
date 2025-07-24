@@ -27,18 +27,16 @@
 #     print("hello")
 #     i += 1
 #     if i == 4:
-
-
 #         break
-start = True
-while start :
-    print("เลือกข้อที่ต้องการเล่น")
-    print("ข้อที่ [1] โจทย์แรก")
-    print("ข้อที่ [2] โจทย์ที่สอง")
-    x = int(input("กรุณากรอกตัวเลข: "))
-    if (x == 1):
-     print("ทำโจทย์ที่1")
-    elif (x == 2 ):
-        print("ทำโจทย์ที่2")
-    start = False
+# start = True
+# while start :
+#     print("เลือกข้อที่ต้องการเล่น")
+#     print("ข้อที่ [1] โจทย์แรก")
+#     print("ข้อที่ [2] โจทย์ที่สอง")
+#     x = int(input("กรุณากรอกตัวเลข: "))
+#     if (x == 1):
+#      print("ทำโจทย์ที่1")
+#     elif (x == 2 ):
+#         print("ทำโจทย์ที่2")
+#     start = False
 
